@@ -11,8 +11,8 @@ $( document ).ready(function() {
   $('#clear').on('click', function(){
     $('#screen').empty()
   })
+  
   // operator object place computer readable forms
-
   //evaluate expressions and check for bad format
   $('#equals').on('click', function(){
     var screenInput = $('#screen').text().replace( 'x', "*").replace('÷', '/');
